@@ -1,9 +1,10 @@
 public class calc {
     public static void main(String[] args) {
-        int a = 5;
-        int b = 6;
 
-        System.out.print("I have " + a + " orages\n");
-        System.out.print("I have " + b + " apples\n");
+        System.out.print("I have " + Fruit.Orange.getCount() + " " + 
+                            Fruit.Orange.getFruitName() +" orages\n");
+
+        System.out.print("I have " + Fruit.Apple.getCount() + " " + 
+                            Fruit.Apple.getFruitName() +" apples\n");
     }
 }
