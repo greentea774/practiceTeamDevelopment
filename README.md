@@ -1,0 +1,2 @@
+# practiceTeamDevelopment
+チーム開発練習用のリポジトリ
